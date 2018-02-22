@@ -11,5 +11,11 @@ Starter kit for creating composer compatible library
 Begin your new library with starter kit. Just create project:
 
 ```
-composer create-project sokil/php-library-starter-kit my-php-library
+composer create-project sokil/php-library-starter-kit my-php-library --prefer-source
+```
+
+Or you can just clone repo:
+
+```
+git clone https://github.com/sokil/php-library-starter-kit.git my-php-library
 ```
