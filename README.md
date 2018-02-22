@@ -1,4 +1,4 @@
-# php-library-starter-kit
+# PHP Library Starter Kit
 
 Starter kit for creating composer compatible library
 
