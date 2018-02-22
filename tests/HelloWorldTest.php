@@ -2,7 +2,9 @@
 
 namespace Sokil\PhpLibraryStarterKit;
 
-class HelloWorldTest extends \PHPU
+use PHPUnit\Framework\TestCase;
+
+class HelloWorldTest extends TestCase
 {
     public function testSayHello()
     {
