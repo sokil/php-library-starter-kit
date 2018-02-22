@@ -1,0 +1,35 @@
+{
+  "name": "vendor/library-name",
+  "description": "Library description",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["php", "starter kit"],
+  "homepage": "https://github.com/sokil/php-library-starter-kit",
+  "authors": [
+    {
+      "name": "Dmytro Sokil",
+      "email": "dmytro.sokil@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Sokil\\PhpLibraryStarterKit\\": ["src/", "tests/"]
+    }
+  },
+  "require": {
+    "php": ">=5.3 || ^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=4.8.35 <6.0",
+    "satooshi/php-coveralls": ">=0.7.1 <2.0",
+    "squizlabs/php_codesniffer": "^2.3",
+    "phpmd/phpmd" : "@stable"
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit -c ./tests/phpunit.xml ./tests",
+    "cover": "./vendor/bin/phpunit -c ./tests/phpunit.xml --coverage-clover ./build/phpunit/clover.xml ./tests",
+    "coveralls": "./vendor/bin/coveralls -v",
+    "check-style": "./vendor/bin/phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src",
+    "fix-style": "./vendor/bin/phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src"
+  }
+}
