@@ -6,8 +6,10 @@ Starter kit for creating composer compatible library
 [![Build Status](https://travis-ci.org/sokil/php-library-starter-kit.png?branch=master&2)](https://travis-ci.org/sokil/php-library-starter-kit)
 [![Coverage Status](https://coveralls.io/repos/sokil/php-library-starter-kit/badge.png)](https://coveralls.io/r/sokil/php-library-starter-kit)
 
+## Creating new project
+
 Begin your new library with starter kit. Just create project:
 
 ```
-composer create-project sokil/php-library-starter-kit
+composer create-project sokil/php-library-starter-kit my-php-library
 ```
