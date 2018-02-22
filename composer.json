@@ -1,6 +1,6 @@
 {
-  "name": "vendor/library-name",
-  "description": "Library description",
+  "name": "sokil/php-library-starter-kit",
+  "description": "Starter kit for creating composer compatible library",
   "type": "library",
   "license": "MIT",
   "keywords": ["php", "starter kit"],
