@@ -13,7 +13,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "Sokil\\PhpLibraryStarterKit\\": ["src/", "tests/"]
+      "Sokil\\PhpLibraryStarterKit\\": ["src/"]
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Sokil\\PhpLibraryStarterKit\\": ["tests/"]
     }
   },
   "require": {
