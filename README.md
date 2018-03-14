@@ -20,4 +20,17 @@ Or you can just clone repo:
 
 ```
 git clone https://github.com/sokil/php-library-starter-kit.git my-php-library
+
 ```
+
+## External tools
+
+There are some usefull tools for library development, but they written on PHP > 7.0 and this library by default configured for PHP ">=5.3 || ^7.0". So this tools only suggested to be installed or may be installed globally as phar packages or global composer requirement.
+
+### PHPBench
+
+Read more at http://phpbench.readthedocs.io. There is some configuration in `phpbench.json`. Also there is composer script to run infection: `composer bench`
+
+### Infection
+
+Read more at https://infection.github.io. There is some configuration in `infection.json.dist`. Also there is composer script to run infection: `composer infection`
