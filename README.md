@@ -23,6 +23,16 @@ git clone https://github.com/sokil/php-library-starter-kit.git my-php-library
 
 ```
 
+## Composer commands
+
+* "test": start unit tests
+* "cover": generate code coverage report to file
+* "coveralls": send code coverage report to `coveralls`
+* "check-style": check code style by PSR2 rules
+* "fix-style": automatically fix style by PSR2 rules
+* "bench": run `phpbench` benchmarks,
+* "infection": run mutation tests
+
 ## External tools
 
 There are some usefull tools for library development, but they written on PHP > 7.0 and this library by default configured for PHP ">=5.3 || ^7.0". So this tools only suggested to be installed or may be installed globally as phar packages or global composer requirement.
