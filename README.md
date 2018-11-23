@@ -1,6 +1,6 @@
 # PHP Library Starter Kit
 
-Starter kit for creating composer compatible library
+Starter kit for creating composer compatible library will help to add boilerplate code. Clone project and start library development with already configured tests, code coverage, code style and quality tools, betchmarking and CI.
 
 [![Total Downloads](http://img.shields.io/packagist/dt/sokil/php-library-starter-kit.svg)](https://packagist.org/packages/sokil/php-library-starter-kit)
 [![Build Status](https://travis-ci.org/sokil/php-library-starter-kit.png?branch=master&2)](https://travis-ci.org/sokil/php-library-starter-kit)
