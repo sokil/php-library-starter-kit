@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="php-isocodes">
+<ruleset name="psr12_extended">
     <description>PSR12 + extended checks</description>
     <arg value="p" />
     <arg value="s" />
