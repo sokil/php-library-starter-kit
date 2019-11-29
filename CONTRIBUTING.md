@@ -1,1 +1,1 @@
-Glad to see your poll requests with usefull features.
+Glad to see your pull requests with usefull features.
