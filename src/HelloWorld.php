@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Sokil\PhpLibraryStarterKit;
 
 /**
@@ -10,7 +12,7 @@ class HelloWorld
     /**
      * Say hello to world
      */
-    public function sayHello()
+    public function sayHello(): void
     {
         echo 'Hello World';
     }

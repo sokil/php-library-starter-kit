@@ -1,12 +1,14 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Sokil\PhpLibraryStarterKit;
 
 use PHPUnit\Framework\TestCase;
 
 class HelloWorldTest extends TestCase
 {
-    public function testSayHello()
+    public function testSayHello(): void
     {
         $helloWorldManager = new HelloWorld();
 
