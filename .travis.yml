@@ -1,6 +1,6 @@
 sudo: false
 
-dist: trusty
+dist: xenial
 
 language: php
 
@@ -11,9 +11,6 @@ php:
 matrix:
   allow_failures:
     - php: nightly
-  include:
-    - php: "5.3"
-      dist: precise
 
 before_script:
   - PHP_VERSION=$(php -r 'echo phpversion();')
