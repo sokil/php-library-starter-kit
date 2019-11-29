@@ -39,7 +39,7 @@
   "scripts": {
     "test": "./vendor/bin/phpunit ./tests",
     "cover": "./vendor/bin/phpunit --coverage-clover ./build/phpunit/clover.xml ./tests",
-    "coveralls": "./vendor/bin/coveralls -v",
+    "coveralls": "./vendor/bin/php-coveralls -v",
     "check-style": "./vendor/bin/phpcs",
     "fix-style": "./vendor/bin/phpcbf",
     "bench": "phpbench run benchmarks/  --report=default",
